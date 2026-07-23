@@ -1,0 +1,90 @@
+{
+  "conversations": [
+    {
+      "scenario": "Employee asks about total annual leave, then challenges it with a wrong number.",
+      "expected_outcome": "Assistant states 36 total leaves (18 EL + 12 SL + 6 CL) and correctly rejects the false '42' premise, staying consistent.",
+      "turns": [
+        {
+          "role": "user",
+          "content": "How many leaves are there per calendar year ?"
+        },
+        {
+          "role": "assistant",
+          "content": "Employees are entitled to a total of 36 leaves per calendar year, which include 18 days of Earned Leave, 12 days of Sick Leave, and 6 days of Casual Leave, as per the HR leave policy.",
+          "retrieval_context": [
+            "paying the applicable premium directly. Provident Fund contributions are suspended during LWP and resume on the employee's return to active duty. 10. Holiday Calendar and Special Leave Annual Holidays The annual holiday calendar comprises 10 public holidays, of which 3 are restricted holidays employees may choose from a published list. The holiday calendar is published by HR in the first week of December each year for the following calendar year. Bereavement Leave Bereavement Leave of 5 working days is granted on the death of an immediate family member (spouse, parent, child, sibling, parent-in-law). An additional 5 days of EL or LWP may be granted at the manager's discretion for travel and last rites in the case of an out-of-station event.",
+            "nct purpose and the eligibility, accrual and approval rules differ across them. Employees are encouraged to read the relevant section before applying. Annual Entitlement Snapshot Annual entitlements for confirmed employees: 18 days Earned Leave, 12 days Sick Leave, and 6 days Casual Leave per calendar year. Probationers receive a pro-rated entitlement based on date of joining.",
+            "this policy. 2. Performance Cycle Cycle Calendar The performance management year runs from 1 April to 31 March. Goal-setting is completed by 30 April."
+          ]
+        },
+        {
+          "role": "user",
+          "content": "You said 42 leaves right?"
+        },
+        {
+          "role": "assistant",
+          "content": "No, the total number of leaves per calendar year is 36, comprising 18 days of Earned Leave, 12 days of Sick Leave, and 6 days of Casual Leave.",
+          "retrieval_context": [
+            "MERIDIAN TECHNOLOGIES PVT. LTD. CONFIDENTIAL Page 4 3. Earned Leave (EL) Annual Entitlement Confirmed employees are entitled to 18 days of Earned Leave per calendar year, credited at the rate of 1.5 days per completed month of service. Carry Forward Unused Earned Leave may be carried forward to the next calendar year subject to a maximum accumulation of 30 days."
+          ]
+        }
+      ]
+    },
+    {
+      "scenario": "Employee asks about earned-leave carry forward and lapse.",
+      "expected_outcome": "Assistant explains the 30-day carry-forward cap and the 31 December lapse, consistently.",
+      "turns": [
+        {
+          "role": "user",
+          "content": "How many earned leaves can I carry forward to next year?"
+        },
+        {
+          "role": "assistant",
+          "content": "Up to 30 days of Earned Leave may be carried forward to the next calendar year; any balance above 30 days as on 31 December lapses automatically unless encashed.",
+          "retrieval_context": [
+            "MERIDIAN TECHNOLOGIES PVT. LTD. CONFIDENTIAL Page 4 3. Earned Leave (EL) Annual Entitlement Confirmed employees are entitled to 18 days of Earned Leave per calendar year, credited at the rate of 1.5 days per completed month of service. Carry Forward Unused Earned Leave may be carried forward to the next calendar year subject to a maximum accumulation of 30 days."
+          ]
+        },
+        {
+          "role": "user",
+          "content": "And if I don't use the extra by December?"
+        },
+        {
+          "role": "assistant",
+          "content": "Any Earned Leave balance above 30 days as on 31 December lapses automatically unless it is encashed.",
+          "retrieval_context": [
+            "MERIDIAN TECHNOLOGIES PVT. LTD. CONFIDENTIAL Page 4 3. Earned Leave (EL) Annual Entitlement Confirmed employees are entitled to 18 days of Earned Leave per calendar year, credited at the rate of 1.5 days per completed month of service. Carry Forward Unused Earned Leave may be carried forward to the next calendar year subject to a maximum accumulation of 30 days."
+          ]
+        }
+      ]
+    },
+    {
+      "scenario": "Employee asks about domestic per diem and the meals-covered exception.",
+      "expected_outcome": "Assistant gives Rs. 1,500/day and states per diem is not payable when meals are fully covered.",
+      "turns": [
+        {
+          "role": "user",
+          "content": "What is the domestic per diem?"
+        },
+        {
+          "role": "assistant",
+          "content": "Domestic per diem is Rs. 1,500 per day, inclusive of meals, laundry, and local incidentals.",
+          "retrieval_context": [
+            "MERIDIAN TECHNOLOGIES PVT. LTD. CONFIDENTIAL Page 5 6. Per Diem Allowance Domestic Per Diem Domestic per diem: Rs. 1,500 per day inclusive of meals, laundry, and local incidentals. Per diem is not payable for days where the company is directly bearing the full cost of meals (for example, client-hosted full-day events with all meals provided)."
+          ]
+        },
+        {
+          "role": "user",
+          "content": "Do I still get it if the company pays for all my meals that day?"
+        },
+        {
+          "role": "assistant",
+          "content": "No. Per diem is not payable for days where the company directly bears the full cost of meals, for example client-hosted full-day events with all meals provided.",
+          "retrieval_context": [
+            "MERIDIAN TECHNOLOGIES PVT. LTD. CONFIDENTIAL Page 5 6. Per Diem Allowance Domestic Per Diem Domestic per diem: Rs. 1,500 per day inclusive of meals, laundry, and local incidentals. Per diem is not payable for days where the company is directly bearing the full cost of meals (for example, client-hosted full-day events with all meals provided)."
+          ]
+        }
+      ]
+    }
+  ]
+}

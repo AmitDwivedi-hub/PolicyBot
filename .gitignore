@@ -1,5 +1,5 @@
 # Models
-models/
+
 
 # Python
 __pycache__/
@@ -19,15 +19,12 @@ env/
 .env
 
 # Vector store & knowledge base
-vector_store/
-knowledge_base/
+
 
 # Generated scripts
-generate_pdfs.py
 
 # Logs & runtime output
-flaw_log.jsonl
-*.log
+
 
 # IDE
 .vscode/

@@ -1,0 +1,39 @@
+{"timestamp": "2026-06-29T09:05:32.959746Z", "question": "Can you tell me how many leaves do we get in a calendar year?", "is_flawed": false, "flaw_type": null}
+{"timestamp": "2026-06-29T09:06:36.220159Z", "question": "And when are each expiring?", "is_flawed": true, "flaw_type": "hallucination"}
+{"timestamp": "2026-06-29T10:51:40.599029Z", "question": "Can you tell me about the Business Travel Expense related things I should know?", "is_flawed": false, "flaw_type": null}
+{"timestamp": "2026-06-29T10:54:43.986869Z", "question": "So, will I get a special credit card for all expenses to spend from Company itself?", "is_flawed": false, "flaw_type": null}
+{"timestamp": "2026-06-29T11:01:28.813993Z", "question": "Can you tell me how often can I take PTO in this company?", "is_flawed": true, "flaw_type": "missing_clause"}
+{"timestamp": "2026-06-29T11:02:23.919377Z", "question": "And how many can I take in a calendar year", "is_flawed": false, "flaw_type": null}
+{"timestamp": "2026-06-29T11:06:00.087509Z", "question": "What is the dress code policy for this company?", "is_flawed": false, "flaw_type": null}
+{"timestamp": "2026-06-29T11:08:42.268125Z", "question": "Okay so can you tell me something about the leaves policy here? Like how many do I get and how often can I take it?", "is_flawed": false, "flaw_type": null}
+{"timestamp": "2026-06-29T11:48:57.001784Z", "question": "How many leaves can I take in this company?", "is_flawed": true, "flaw_type": "hallucination"}
+{"timestamp": "2026-06-29T11:49:24.574445Z", "question": "And how frequently can I take them?", "is_flawed": false, "flaw_type": null}
+{"timestamp": "2026-06-29T11:49:47.054801Z", "question": "How many days in advance should I plan?", "is_flawed": true, "flaw_type": "wrong_number"}
+{"timestamp": "2026-06-29T11:57:35.689159Z", "question": "How many leaves can I take each year?", "is_flawed": false, "flaw_type": null}
+{"timestamp": "2026-06-29T11:58:00.020860Z", "question": "How frequently can I take those leaves?", "is_flawed": false, "flaw_type": null}
+{"timestamp": "2026-06-29T12:04:59.576715Z", "question": "How many leaves can I take per year?", "is_flawed": false, "flaw_type": null}
+{"timestamp": "2026-06-29T12:05:24.323105Z", "question": "How frequently can I take these?", "is_flawed": true, "flaw_type": "wrong_number"}
+{"timestamp": "2026-06-29T13:40:17.698695Z", "question": "Can you tell me about leaves in this company please?", "is_flawed": false, "flaw_type": null}
+{"timestamp": "2026-06-29T13:40:42.610825Z", "question": "And how many can I take?", "is_flawed": false, "flaw_type": null}
+{"timestamp": "2026-06-29T13:41:21.601142Z", "question": "What is the dress code in this company?", "is_flawed": false, "flaw_type": null}
+{"timestamp": "2026-06-29T13:42:48.770892Z", "question": "Tell me abt leaves", "is_flawed": false, "flaw_type": null}
+{"timestamp": "2026-06-29T13:43:04.094624Z", "question": "Can I extend to get more leaves?", "is_flawed": false, "flaw_type": null}
+{"timestamp": "2026-06-29T13:43:26.695979Z", "question": "Can you tell me about the dress code please", "is_flawed": true, "flaw_type": "wrong_approver"}
+{"timestamp": "2026-06-30T06:20:57.504381Z", "question": "how many leaves do we get?", "is_flawed": false, "flaw_type": null}
+{"timestamp": "2026-06-30T06:27:30.512089Z", "question": "how many leaves can i take in a month?", "is_flawed": false, "flaw_type": null}
+{"timestamp": "2026-06-30T12:19:21.543150Z", "question": "Can i take a 10 day leave in 1 month?", "is_flawed": true, "flaw_type": "wrong_number"}
+{"timestamp": "2026-06-30T16:58:29.124970Z", "question": "can i wear a hoodie to office?", "is_flawed": false, "flaw_type": null}
+{"timestamp": "2026-06-30T16:59:38.875299Z", "question": "what will happen if i dont go to office atleast 2 times a week, I have been assigned hybrid work form", "is_flawed": false, "flaw_type": null}
+{"timestamp": "2026-06-30T17:01:47.782944Z", "question": "how many leaves i can take in an year", "is_flawed": false, "flaw_type": null}
+{"timestamp": "2026-06-30T17:02:05.964801Z", "question": "which if them are carry forward", "is_flawed": false, "flaw_type": null}
+{"timestamp": "2026-07-01T07:17:33.964914Z", "question": "how many leaves i can take in an year", "is_flawed": false, "flaw_type": null}
+{"timestamp": "2026-07-01T09:44:08.138486Z", "question": "how many leaves per year?", "is_flawed": false, "flaw_type": null}
+{"timestamp": "2026-07-01T09:44:26.193036Z", "question": "how can i resign from company", "is_flawed": false, "flaw_type": null}
+{"timestamp": "2026-07-01T09:47:09.683657Z", "question": "how many leaves", "is_flawed": false, "flaw_type": null}
+{"timestamp": "2026-07-01T09:47:30.343440Z", "question": "how to WFH", "is_flawed": false, "flaw_type": null}
+{"timestamp": "2026-07-01T09:50:50.106932Z", "question": "how many leaves", "is_flawed": false, "flaw_type": null}
+{"timestamp": "2026-07-01T09:51:01.719706Z", "question": "hw to sick leave", "is_flawed": true, "flaw_type": "wrong_number"}
+{"timestamp": "2026-07-06T10:59:37.875656Z", "question": "How many earned leaves can an employee carry forward per year?", "is_flawed": false, "flaw_type": null}
+{"timestamp": "2026-07-06T11:02:26.220719Z", "question": "How many earned leaves can an employee carry forward per year?", "is_flawed": false, "flaw_type": null}
+{"timestamp": "2026-07-06T11:08:55.791596Z", "question": "\uf0b7How many earned leave days do employees get per year?", "is_flawed": false, "flaw_type": null}
+{"timestamp": "2026-07-06T11:15:45.436702Z", "question": "How many earned leaves can an employee carry forward per year?", "is_flawed": true, "flaw_type": "hallucination"}
